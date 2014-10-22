@@ -9,7 +9,7 @@ class Statistics {
  * Calculates the sum for a given set of values.
  *
  * @param array $values The input values
- * @return float|integer The sum of values as an integer or float
+ * @return float|int The sum of values as an integer or float
  */
 	public static function sum($values) {
 		return array_sum($values);
@@ -19,7 +19,7 @@ class Statistics {
  * Calculates the minimum for a given set of values.
  *
  * @param array $values The input values
- * @return float|integer The minimum of values as an integer or float
+ * @return float|int The minimum of values as an integer or float
  */
 	public static function min($values) {
 		return min($values);
@@ -29,7 +29,7 @@ class Statistics {
  * Calculates the maximum for a given set of values.
  *
  * @param array $values The input values
- * @return float|integer The maximum of values as an integer or float
+ * @return float|int The maximum of values as an integer or float
  */
 	public static function max($values) {
 		return max($values);
@@ -39,7 +39,7 @@ class Statistics {
  * Calculates the mean for a given set of values.
  *
  * @param array $values The input values
- * @return float|integer The mean of values as an integer or float
+ * @return float|int The mean of values as an integer or float
  */
 	public static function mean($values) {
 		$numberOfValues = count($values);
@@ -77,7 +77,7 @@ class Statistics {
  * Calculates the mode for a given set of values.
  *
  * @param array $values The input values
- * @return float|integer The mode of values as an integer or float
+ * @return float|int The mode of values as an integer or float
  * @throws StatisticsError
  */
 	public static function mode($values) {
@@ -101,9 +101,9 @@ class Statistics {
 /**
  * Calculates the square of value - mean.
  *
- * @param float|integer $value The input value
- * @param float|integer $mean The mean
- * @return float|integer The square of value - mean
+ * @param float|int $value The input value
+ * @param float|int $mean The mean
+ * @return float|int The square of value - mean
  */
 	protected static function _squaredDifference($value, $mean) {
 		return pow($value - $mean, 2);
@@ -113,8 +113,8 @@ class Statistics {
  * Calculates the variance for a given set of values.
  *
  * @param array $values The input values
- * @param boolean $sample Whether or not to compensate for small samples (n - 1), defaults to true
- * @return float|integer The variance of values as an integer or float
+ * @param bool $sample Whether or not to compensate for small samples (n - 1), defaults to true
+ * @return float|int The variance of values as an integer or float
  */
 	public static function variance($values, $sample = true) {
 		$numberOfValues = count($values);
@@ -139,8 +139,8 @@ class Statistics {
  * Calculates the standard deviation for a given set of values.
  *
  * @param array $values The input values
- * @param boolean $sample Whether or not to compensate for small samples (n - 1), defaults to true
- * @return float|integer The standard deviation of values as an integer or float
+ * @param bool $sample Whether or not to compensate for small samples (n - 1), defaults to true
+ * @return float|int The standard deviation of values as an integer or float
  */
 	public static function standardDeviation($values, $sample = true) {
 		return sqrt(self::variance($values, $sample));
@@ -150,7 +150,7 @@ class Statistics {
  * Calculates the range for a given set of values.
  *
  * @param array $values The input values
- * @return float|integer The range of values as an integer or float
+ * @return float|int The range of values as an integer or float
  */
 	public static function range($values) {
 		return self::max($values) - self::min($values);
