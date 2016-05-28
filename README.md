@@ -1,6 +1,6 @@
 # Statistics plugin for CakePHP
 
-[![Build Status](https://travis-ci.org/tersmitten/cakephp-statistics.png?branch=master)](https://travis-ci.org/tersmitten/cakephp-statistics) [![PHP 7 ready](http://php7ready.timesplinter.ch/Oefenweb/cakephp-statistics/badge.svg)](https://travis-ci.org/Oefenweb/cakephp-statistics) [![Coverage Status](https://coveralls.io/repos/tersmitten/cakephp-statistics/badge.png)](https://coveralls.io/r/tersmitten/cakephp-statistics)  [![Packagist downloads](http://img.shields.io/packagist/dt/tersmitten/cakephp-statistics.svg)](https://packagist.org/packages/tersmitten/cakephp-statistics) [![Code Climate](https://codeclimate.com/github/tersmitten/cakephp-statistics/badges/gpa.svg)](https://codeclimate.com/github/tersmitten/cakephp-statistics)
+[![Build Status](https://travis-ci.org/tersmitten/cakephp-statistics.png?branch=master)](https://travis-ci.org/tersmitten/cakephp-statistics) [![PHP 7 ready](http://php7ready.timesplinter.ch/tersmitten/cakephp-statistics/badge.svg)](https://travis-ci.org/tersmitten/cakephp-statistics) [![Coverage Status](https://coveralls.io/repos/tersmitten/cakephp-statistics/badge.png)](https://coveralls.io/r/tersmitten/cakephp-statistics)  [![Packagist downloads](http://img.shields.io/packagist/dt/tersmitten/cakephp-statistics.svg)](https://packagist.org/packages/tersmitten/cakephp-statistics) [![Code Climate](https://codeclimate.com/github/tersmitten/cakephp-statistics/badges/gpa.svg)](https://codeclimate.com/github/tersmitten/cakephp-statistics)
 
 ## Requirements
 
