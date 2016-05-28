@@ -54,7 +54,7 @@ class Statistics {
  * @return array The frequency table
  */
 	public static function frequency($values) {
-		$frequency = array();
+		$frequency = [];
 		foreach ($values as $value) {
 			// Floats cannot be indices
 			if (is_float($value)) {
@@ -120,7 +120,7 @@ class Statistics {
 		$numberOfValues = count($values);
 		$mean = self::mean($values);
 
-		$squaredDifferences = array();
+		$squaredDifferences = [];
 		foreach ($values as $value) {
 			$squaredDifferences[] = self::_squaredDifference($value, $mean);
 		}
