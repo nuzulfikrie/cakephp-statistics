@@ -140,7 +140,7 @@ class StatisticsTest extends CakeTestCase {
 			3 => 4,
 		];
 
-		$this->assertIdentical($expected, $result);
+		$this->assertEquals($expected, $result);
 
 		//
 		// Floats
@@ -158,7 +158,7 @@ class StatisticsTest extends CakeTestCase {
 			6 => 4,
 		];
 
-		$this->assertIdentical($expected, $result);
+		$this->assertEquals($expected, $result);
 
 		//
 		// Strings
@@ -173,7 +173,7 @@ class StatisticsTest extends CakeTestCase {
 			'red' => 4,
 		];
 
-		$this->assertIdentical($expected, $result);
+		$this->assertEquals($expected, $result);
 	}
 
 	public function testMode() {
